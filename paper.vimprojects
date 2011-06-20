@@ -1,2 +1,12 @@
 PWZ Paper=/Users/jagna/Documents/studies/pwz/praca_koncowa/PinM-paper CD=. filter="*.tex" flags=S {
+ group.tex
+ hypothesis-ver.tex
+ hypothesis.tex
+ index.tex
+ introduction.tex
+ research.tex
+ results.tex
+ tests.tex
+ theory-eng.tex
+ theory-sat.tex
 }
