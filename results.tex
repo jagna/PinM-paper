@@ -2,7 +2,7 @@
 
 \subsection{Job Satisfaction Survey}
 
-\begin{figure}[h]
+\begin{figure}[h!t]
     \centering
     \subfloat[Płaca]{\label{fig:his-pay}\includegraphics[height=0.27\textheight]{sat-pay}}
     \subfloat[Awanse]{\label{fig:his-promotion}\includegraphics[height=0.27\textheight]{sat-promotion}}
@@ -15,10 +15,10 @@
     \caption{Histogramy dla \emph{JSS} -- część pierwsza}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!t]
     \centering
     \subfloat[Współpracownicy]{\label{fig:his-pay}\includegraphics[height=0.27\textheight]{sat-coworkers}}
-f   \subfloat[Wykonywana praca]{\label{fig:his-promotion}\includegraphics[height=0.27\textheight]{sat-work}}
+   \subfloat[Wykonywana praca]{\label{fig:his-promotion}\includegraphics[height=0.27\textheight]{sat-work}}
     \\
     \subfloat[Komunikacja]{\label{fig:his-pay}\includegraphics[height=0.27\textheight]{sat-communication}}
     \subfloat[Satysfkacja]{\label{fig:his-promotion}\includegraphics[height=0.27\textheight]{sat}}
@@ -150,6 +150,9 @@ Przymowane wartości rozciągają się od 98, do 202 (domena od 36 do 216). Dod
 jedna-trzecia grupy, natomiast osoby niezadowolone całkowicie to znikoma ilość respondentów (dokładnie 3 osoby).
 
 Odchylenie standardowe wynosi 25,41, czyli dla skali o szerorokości 180 jest to średnio-niski wynik, czyli średni rozrzut w danych. Natomiast alfa Cronbacha ma bardzo wysoki wynik i wynosi 0,91, co wskazuje na dużą spójność w odpowiedziach respondentów.
+
+\FloatBarrier
+
 \subsection{Ultrech Work Engagement Survey}
 
 \begin{table}[h!]
@@ -199,15 +202,36 @@ Oddanie & & --- & 0,69 \\
 Absorpcja & & & --- \\
 \end{tabular}
 \end{center}
-\label{tab:uwes-correl}
 \caption{Korelacja dla wszystkich wymiarów \emph{UWES}}
+\label{tab:uwes-correl}
 \end{table}
 
-\paragraph{Wigor.} 
+\paragraph{Wigor.} Wartości dla \textit{wigoru} rozpoczynają się od 1,33 (przynajmniej raz w roku) i rozciągają do 5.5 (przynajmniej kilka razy w tygodniu lub codziennie). Średnia to 3,75 (przynajmniej kilka razy w miesiącu). Pierwszy kwartyl to 3, czyli co najwyżej 25\% osób czuje wigor w pracy mniej niż kilka razy w miesiącu. Mediana to 3,83, czyli co najmniej 25\% osób ma podobne odczucia kilka razy w miesiącu. Trzeci kwartyl to 4,67, czyli co najmniej 25\%
+respondentów jest pełnych energii w pracy między kilka razy w miesiącu do raza w tygodniu. Kolejne 25\% to osoby, które czują zaangażowannie co najmniej raz w tygodniu i wiecej. Jeżeli spojrzymy na Rysunek \ref{fig:eng-vigor} widzimy, że aż dwie-trzecie badanych odczuwa zaangażowanie od kilku razy w miesiącu do raza w tygodniu. Osób, które mają takie emocje co najawyżej raz w roku jest bardzo mało (dokładnie 4). Za to osoby najbardziej pożądane, które odczuwają wigor w pracy co najmniej
+kilka razy w tygodniu to jedna-szósta respondentów (12 osób).
 
-\paragraph{Oddanie.}
+Ochylenie standardowe o wartości 1,06 jest średnie i wskazuje na średni rozrzut odpowiedzi badanych. Natomiast alfa Cronbacha na poziomie 0,83 wskazuje na wysoką spójność odpowiedzi respondentów.
 
-\paragraph{Absorpcja.}
+\textit{Wigor} wykazuje wysoką zależność z pozostałymi wymiarami (patrz Tabela \ref{tab:uwes-correl}): \textit{oddanie} -- 0,75 oraz \textit{absorpcja} -- 0.79. Wskazuje to na silne powiązanie między odczuwaniem tych emocji lub ich bliskość semantyczną.
 
-\paragraph{Zaangażowanie ogólne.}
+\paragraph{Oddanie.} Odpowiedzi respondentów dla \textit{oddania} zaczynają się od 1,4 (przynajmniej raz w roku) do 6 (maksymalna wartość, co najmniej kilka razy w miesiącu). Średnia to 3,79 -- przynajmniej kilka razy w miesiącu. Pierwszy kwartyl jest na poziomie kilku razy w miesiącu (wartość 3). Z tego wynika, że jedna-czwarta badanych oddaje się pracy co najwyżej kilka razy w miesiącu. Mediana to 4 (kilka razy w tygodniu), czyli co najmniej 25\% osób ma podobne odczucia
+między kilkoma razami w miesiącu, a jednym razem w tygodniu. Trzeci kwartyl jest na poziomie kilku razy w tygodniu. Porównując z medianą widzimy, że co najmniej jedna-czwarta respondentów odczuwa oddanie w pracy przynajmniej kilka razy w tygodniu. Porównując te miary z Rysunkiem \ref{fig:eng-dedication} można dodać, że ok. jedna-trzecia badanych jest dumna z pracy i widzi sens swojej pracy między kilkoma razami w miesiącu, a jednym razem w tygodniu. Za to ok.
+jedna-szósta ma analogiczne odczucia co najmniej kilka razy w tygodniu, a tylko 7 osób tylko kilka razy w roku.
+
+Odchylenie standardowe jest na poziomie 1,21 (średnio-wysokie), co wskazuje na średnią różnorodność odpowiedzi respondentów. Alfa Cronbacha wynosi 0,9 i wskazuje na wysoką spójność w odpowiedziach badanych.
+
+Natomiast korelacje z Tabeli \ref{tab:uwes-correl} (z \textit{wigorem} -- 0,75, z \textit{absorpcją} -- 0,69), podobnie jak z \textit{wigorem}, wskazują na dużą zaleśność między wymiarami lub podobieństwo semantyczne.
+
+\paragraph{Absorpcja.} \textit{Absorpcja} przyjmuje wartości od 1,17 (przynajmniej raz w roku) do 5,83 (przynajmniej kilka razy w roku lub codziennie). Średnia wynosi 3,76 (przynajmniej kilka razy w miesiącu). Pierwszy kwartyl (wartość 3) wskazuje, że ok. 25\% respondentów wciąga się w prace co najwyżej raz do roku. Mediana na poziomie 3,5 pokazuje, że co najmniej 25\% osób odczuwa absorpcję w pracy kilka razy w miesiącu. Natomista trzeci kwartyl na poziomie
+4,67 oznacza, że co najmniej 25\% ma podobne emocje w pracy przynajmniej raz w tygodniu, jak nie częściej. Patrząc na Rysunek \ref{fig:eng-absorption} można dodać, że ok. jedna-trzeciej badanych czas w pracy ucieka nie wiadomo kiedy co najmniej kilka razy w miesiącu, jak nie raz w tygodniu. Natomist tylko 3 osoby mają takie odczucia co najwyżej raz w roku. Z drugiej strony, tylko 11 osób czuje podobnie przynajmniej kilka razy w tygodniu.
+
+Odchylenie standardowe jest średnie i wynosi 1,1 z czego wynika, że rozrzut odpowiedzi wśród respondentów jest ani wysoki ani niski. Natomiast alfa Cronbacha jest bardzo wysoka i wskazuje na wysoką rzetelność tego wymiaru.
+
+Co do korelacji z Tabeli \ref{tab:uwes-correl} to jest podobnie jak poprzednimi wymiarami, jej wartości są bardzo wysokie: z \textit{wigorem} -- 0,79, z \textit{oddaniem} -- 0,69. Tak jak już było wspomniane wyżej wskazuje to na wysoką współżależność między wymiarami lub na ich semantyczną bliskość.  
+
+\paragraph{Zaangażowanie ogólne.} Wartość minimalna to 1,47 (przynajmnie raz w roku), a maksymalna 5,83 (przynajmniej kilka razy w tygodniu). Pierwszy kwartyl to 3 (przynajmniej kilka razy w miesiącu), mediana 3,5 (także przynajmniej kilka razy w miesiącu)a, a trzeci kwartyl to 4,53 czyli kilka razy w tygodniu. Oznacza to, że mniej niż 25\% badanych odczuwa \textit{zaangażowanie ogólne} rzadko (co najwyżej raz w miesiącu). Więcej niż 25\% (patrząc na Rysunek \ref{fig:eng} można
+doprecyzować że ok. jedna-trzecia) -- często czuje zaangażowanie
+(od kilku razy w miesiącu do jednego w tygodniu), a kolejna ponad jedna-czwarta grupy -- bardzo często (co najmniej raz w tygodniu). Analizując dodatkowo histogram na Rysunku \ref{fig:eng} widzimi, że niewiele osób odczuwa zaangażowanie co najwyżej raz w roku (4 osoby) oraz niewiel osób odczuwa je bardzo często (8 osób, co najmniej kilka razy w tygodniu).
+
+Rozrzut w danych jest średnio-niski, na co wskazuje odchylenie standardowe na poziomie 1,02. Natomiast alfa Cronbacha jest bardzo wysoka i wynosi 0,94, czyli cały test jest bardzo spójny jeżeli chodzi o badany aspekt pracy.
 
