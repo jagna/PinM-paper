@@ -1,1 +1,128 @@
 \section{Weryfikacja problemów badawczych}
+\subsection{Zależność między satysfakcją, a zaangażowaniem}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{l || c c c | c}
+  & Wigor & Oddanie & Absorpcja & Zaangażowanie \\ \hline \hline
+Płaca & 0,18 & 0,32 & 0,24 & 0,27 \\
+Awanse & 0,23 & 0,34 & 0,16 & 0,26 \\
+Nadzór & 0,17 & 0,37 & 0,21 & 0,27 \\
+Dodatki & 0,19 & 0,19 & 0,08 & 0,17 \\
+Nagrody & 0,27 & 0,3 & 0,24 & 0,29 \\
+Warunki & -0,04 & -0,1 & -0,03 & -0,06 \\
+Współpracownicy & 0,32 & 0,39 & 0,22 & 0,34 \\
+Wykonywana praca & 0,62 & 0,79 & 0,53 & 0,71 \\
+Komunikacja & 0,31 & 0,38 & 0,33 & 0,38 \\ \hline
+Satyfakcja & 0,36 & 0,48 & 0,32 & 0,42 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Korelacja między zaangażowaniem w pracę, a satysfackję z pracy wraz z ich wymiarami.}
+\label{tab:jss-uwes-correl}
+\end{table}
+
+Jak widać w Tabeli \ref{tab:jss-uwes-correl}, między satysfakcją z pracy, a zaangażowaniem w pracę jest tylko średniej mocy zależność (wartość 0,42). Częściowo potwierdza to hipotezę postawią w rozdziale \ref{sec:hypothesis-relation}.
+
+Co ciekawe nie ma kompletnie relacji między wymiarem satysfakcji -- \textit{warunkami}, a zaangażowaniem. Z tego wynika, że warunki w pracy kompletnie nie mają wpływu na poziom naszej energii, stopień skupienia na zadaniu, czy na oddanie wykonywanej pracy. Pomimo tego, że to właśnie odpowiedni warunki i środowisko pracy powinno sprzyjać choćby wymiarowi \textit{absorpcja}. Jednak zależność między \textit{absorpcją}, a \textit{zaangażowaniem} wynosi -0,03.
+
+Z drugiej strony okazało się, że istnieje średniej mocy zależność między aspektem pracy \textit{wykonywana praca} (wymiar satysfakcji), a zaangażowaniem (wartość 0,71). Korelacje dla każdego z poszczególnych wymiarów zaangażowania są także bardzo wysokie:
+\begin{itemize}
+  \item cor(wykonywana praca, wigor) = 0,62
+  \item cor(wykonywana praca, oddanie) = 0,79
+  \item cor(wykonywana praca, absorpcja) = 0,53
+\end{itemize}
+Jak widać rodzaj wykonywanych zadań ma największy wpływ na oddanie pracy, czyli uczucie dumy z wykonywanej pracy oraz jej sensowność w oczach pracownika. Oznacza to, że jeżeli ludzie lubią to co robią, sprzyja to ich oddaniu. Następny w kolejności wynik ma \textit{wigor}. Wydaje się być naturalnym, że skoro jesteśmy zadowoleni z wykonywanej pracy łatwiej nam włożyć więcej energii w nią, mamy więcej motywacji i siły do pokonywania przeszkód, które się pojawią w trakcie
+realizacji zadań. Ostatnim wymiarem, ze średniej mocy zależnością, jest \textit{absorpcja}. Skoro lubimy wykonywać naszą pracą, nie wydaje się dziwnym to, że czas podczas jej wykonywania płynie bardzo szybko. Należy jednak postawić pytanie: dlaczego \textit{absorpcja} ma tylko średniej mocy relację z \textit{wykonywaną pracą}? 
+
+Wszystkie odpowiedzi badanych bazują na ich percepcji i ocenie różnych aspektów pracy. Respondenci mogą być nieświadomi braków, na którymkolwiek z wymiarów, które później mogą wpływać na inne apekty czy emocje związane z pracą. W związku z tym warto zadać pytanie: czy niska wartość korelacji między \textit{warunkami}, a zaangażowaniem wskazuje, że badani nie są świadomi jak ten aspekt pracy wpływa na ich \textit{absorpcję} podczas pracy? 
+
+\subsection{Satysfakcja z pracy wśród sektora IT, a normy dla Polaków}
+
+\begin{hyp}
+  Pracownicy sektora IT są bardziej zadowoleni z pracy niż przeciętni Polacy.
+  \label{hip:sat}
+\end{hyp}
+
+W celu zweryfikowania Hipotezy \ref{hip:sat} przeprowadzono test różnic dla dwóch zmiennych niezależnych przy pomocy statystyki Z:
+
+\begin{equation}
+  Z = \frac{\overline{X_2} - \overline{X_1}}{\sqrt{\frac{\sigma^2_2}{N_2}+\frac{\sigma^2_1}{N_1}}}
+\end{equation}
+
+Dla badań populacji estymatory ($\overline{X}$) to średnie ($\mu$) dla badanych cech. Czyli badaną hipotezę statystyczną można przedstawić w następujący sposób:
+
+\begin{equation}
+  H0: \mu_{PL} = \mu_{IT} \qquad H1: \mu_{PL} < \mu_{IT}
+\end{equation}
+
+\begin{table}[h!b]
+  \begin{center}
+    \begin{tabular}{l | c c c }
+      Satysfakcja & N & Śr. & War. \\ \hline
+      sektor IT & 73 & 4,16 & 0,50 \\
+      Polacy & 521 & 3,70 & 0,38 \\
+    \end{tabular}
+  \end{center}
+  \caption{Statystyki opisowe potrzebne do wyliczenia statystyki Z.}
+  \label{tab:jss-norms-data}
+\end{table}
+
+Do obliczenia statystyki Z wykorzystano dane z Tabeli \ref{tab:jss-norms-data}. Przy czym wybrano próg istotności statystycznej $\alpha = 0,05$, czyli $Z_{kryt.} = -1,64$.
+
+\begin{equation}
+  Z = \frac{\overline{X_{PL}} - \overline{X_{IT}}}{\sqrt{\frac{\sigma^2_{PL}}{N_{PL}}+\frac{\sigma^2_{IT}}{N_{IT}}}} = \frac{\mu_{PL} - \mu_{IT}}{\sqrt{\frac{\sigma^2_{PL}}{N_{PL}}+\frac{\sigma^2_{IT}}{N_{IT}}}} = \frac{3,70 - 4,16}{\sqrt{\frac{0,38}{521}+\frac{0,50}{73}}} = -5,29 
+\end{equation}
+
+Na podstawie niespełniania zależności:
+
+\begin{equation}
+  Z_{kryt.} < Z
+\end{equation}
+
+można odrzucić $H0: \mu_{PL} = \mu_{IT}$ oraz przyjąć $H1: \mu_{PL} < \mu_{IT}$ przy istotności statystycznej na poziomie $\alpha = 0,05$.
+
+\subsection{Zaangażowanie w pracę wśród sektora IT, a normy dla Polaków}
+\begin{hyp}
+  Pracownicy sektora IT są bardziej zaangażowani w pracę niż przeciętni Polacy.
+  \label{hip:eng}
+\end{hyp}
+
+Podobnie jak w przypadku satysfkacji, aby zbadać prawdziwość Hipotezy \ref{hip:eng} przeprowadzono test różnic dla dwóch zmiennych niezależnych przy pomocy statystyki Z:
+
+\begin{equation}
+  Z = \frac{\overline{X_2} - \overline{X_1}}{\sqrt{\frac{\sigma^2_2}{N_2}+\frac{\sigma^2_1}{N_1}}}
+\end{equation}
+
+Badana hipoteza statystyczna  to:
+
+\begin{equation}
+  H0: \mu_{PL} = \mu_{IT} \qquad H1: \mu_{PL} < \mu_{IT}
+\end{equation}
+
+\begin{table}[h!b]
+  \begin{center}
+    \begin{tabular}{l | c c c }
+      Zaangażowanie & N & Śr. & War. \\ \hline
+      sektor IT & 73 & 3,76 & 1,04 \\
+      Polacy & 1438 & 3,86 & 0,90 \\
+    \end{tabular}
+  \end{center}
+  \caption{Statystyki opisowe potrzebne do wyliczenia statystyki Z.}
+  \label{tab:uwes-norms-data}
+\end{table}
+
+Do obliczenia statystyki Z wykorzystano dane z Tabeli \ref{tab:uwes-norms-data} przy progu istotności statystycznej $\alpha = 0,05$, czyli $Z_{kryt.} = -1,64$.
+
+\begin{equation}
+  Z = \frac{\overline{X_{PL}} - \overline{X_{IT}}}{\sqrt{\frac{\sigma^2_{PL}}{N_{PL}}+\frac{\sigma^2_{IT}}{N_{IT}}}} = \frac{\mu_{PL} - \mu_{IT}}{\sqrt{\frac{\sigma^2_{PL}}{N_{PL}}+\frac{\sigma^2_{IT}}{N_{IT}}}} = \frac{3,86- 3,76}{\sqrt{\frac{0,90}{1438}+\frac{1,04}{73}}} = 0,19
+\end{equation}
+
+Na podstawie spełnienia zależności:
+
+\begin{equation}
+  Z_{kryt.} < Z
+\end{equation}
+
+można przyjąć $H0: \mu_{PL} = \mu_{IT}$ oraz odrzucić $H1: \mu_{PL} < \mu_{IT}$ przy istotności statystycznej na poziomie $\alpha = 0,05$.
+
+
