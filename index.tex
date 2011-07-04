@@ -2,15 +2,20 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc}
 \usepackage{polski}
-%\usepackage[polish]{babel}
 \usepackage{graphicx}
 \usepackage{subfig}
 \usepackage{placeins}
 \usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage{natbib}
+%\usepackage{cite}
+\usepackage[polish]{babel}
+%\usepackage[fixlanguage,polish]{babelbib}
+%\selectbiblanguage{polish}
 \newtheorem{hyp}{Hipoteza}[subsection]
 
 \begin{document}
-\title{Informatyku! Jak Ci się pracuje? \\ \Large Satysfakcją z~pracy oraz zaangażowanie w~pracę \\ wśród pracowników sektora IT.}
+\title{\Large Satysfakcją z~pracy oraz zaangażowanie w~pracę \\ wśród pracowników sektora IT.}
 \author{\Large{Agnieszka Lewandowska} \\ \texttt{agnieszka.lewandowska@gmail.com} }
 \date{czerwiec 2011}
 \maketitle
@@ -36,4 +41,11 @@
 
 \cleardoublepage
 \input{appendix}
+
+\cleardoublepage
+%%for hyperref to enable hyperlinking
+\phantomsection
+\addcontentsline{toc}{section}{Bibliografia}
+\bibliographystyle{plainnat}
+\bibliography{references/uwes,references/jss,references/pinm}
 \end{document}
