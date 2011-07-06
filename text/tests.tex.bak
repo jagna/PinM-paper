@@ -16,9 +16,9 @@ Zastosowane skale to:
 \item komunikacja - jasność stawianych celów i zadań na różnym szczeblu w ramach danej organizacji.
 \end{itemize}
 
-Pierwotnie \emph{JSS} został stworzony dla pracowników sektora usługowego, jednak może być stosowany do wszystkich typów organizacji. Obecnie istnieją normy dla wielu typów organizacji oraz pracy, dostępnych na stronie \citep{web:jss-norms}.  
+Pierowtnie \emph{JSS} został stworzony dla pracowników sektora uslugowego, jednak może być stosowany do wszystkich typów organizacji. Obecnie istnieją normy dla wielu typów organizacji oraz pracy, dostępnych na stronie \citep{web:jss-norms}.  
 
-Do każdego z 36 stwierdzeń respondent ustosunkowuje się wskazując stopień zgodności na sześciostopniowej skali Likerta: 
+Do każdego z 36 stwierdzeń responded ustosunkowuje się wskazując stopień zgodności na sześciostopniowej skali Likerta: 
 \begin{itemize}
 \item bardzo się nie zgadzam,
 \item umiarkowanie się nie zgadzam,
@@ -27,7 +27,7 @@ Do każdego z 36 stwierdzeń respondent ustosunkowuje się wskazując stopień z
 \item umiarkowanie się zgadzam,
 \item bardzo się zgadzam.
 \end{itemize}
-Skala ta zwyczajowo jest transformowana na skalę liczbową od 1 (,,bardzo się nie zgadzam") do 6 (,,bardzo się zgadzam"). Dzięki takiemu przekodowaniu możliwe jest dalsze opracowanie statystyk (np.: opisowych). Oczywiście dla stwierdzeń skierowanych negatywnie wymagane jest dodatkowe przekodowanie w celu ostatecznego uzyskania sumarycznego wyniku przy założeniu, że wszystkie pytania w kwestionariuszu mają kierunek pozytywny. Przekodowanie to jest odwróceniem skali liczbowej, czyli:
+Skala ta zwyczajowo jest transofrmowana na skalę liczbową od 1 (,,bardzo się nie zgadzam") do 6 (,,bardzo się zgadzam"). Dzięki takiemu przekodowaniu możliwe jest dalsze opracowanie statystyk (np.: opisowych). Oczywiście dla stwierdzeń skierowanych negatywnie wymagane jest dodatkowe przekodowanie w celu ostatecznego uzyskania sumarycznego wyniku przy założeniu, że wszystkie pytania w kwestionariuszu mają kierunek pozytywny. Przekodowanie to jest odwróceniem skali liczbowej, czyli:
 
 \begin{itemize}
 \item $ 1 \rightarrow 6 $
@@ -38,20 +38,20 @@ Skala ta zwyczajowo jest transformowana na skalę liczbową od 1 (,,bardzo się
 \item $ 6 \rightarrow 1 $
 \end{itemize}
 
-Końcowa satysfakcja pracownika wyliczona za pomocą \emph{JSS} reprezentowana jest w postaci liczbowej na skali ciągłej rozciągającej się od 36 włącznie do 216 włącznie, czyli odpowiednio od zdecydowanego niezadowolenia do zdecydowanego zadowolenia z pracy. Nie ma z góry określonych liczbowych wartości granicznych pomiędzy zadowoleniem, a niezadowoleniem z pracy. Ze względu na konieczność końcowej oceny, przyjęto dwa podejścia:
+Końcowa satysfkacja pracownika wyliczona za pomocą \emph{JSS} reprezentowana jest w postaci liczbowej na skali ciągłej rozciągającej się od 36 włącznie do 216 włącznie, czyli odpowiednio od zdecydowanego niezadowolenia do zdecydowanego zadowolenia z pracy. Nie ma z góry określonych liczbowych wartości granicznych pomiędzy zadowoleniem, a niezadowoleniem z pracy. Ze względu na konieczność końcowej oceny, przyjęto dwa podejśćia:
 \begin{itemize}
 \item podejście normatywne -- porównanie z normami dla danej populacji,
-\item podejście absolutne -- podzielenie skali na trzy przedziały liczbowe, oznaczające po kolei niezadowolenie z pracy, uczucia ambiwalentne w stosunku do pracy oraz niezadowolenie z pracy.
+\item podejście absolutne -- podzielenie skali na trzy przedziały liczbowe, oznaczające po kolei niezadowolenie z pracy, uczucia ambwiwaletne w stosunku do pracy oraz niezadowolenie z pracy.
 \end{itemize}
 
 \subsubsection{Podejście normatywne}
 \label{sec:jss-calc-norm}
-Podejście normatywne porównuje badaną próbę osób z normami dla tej samej lub szerszej populacji (np.: pracownicy sektora IT są podgrupą wszystkich Polaków). Część norm jest ogólnie dostępna, w szczególności dla angielskojęzycznej populacji, na stronie twórcy \emph{JSS} \citep{web:jss-norms}. W tym wypadku wykorzystujemy test statystyczny t-Studenta (mniejsze grupy) lub statystykę Z dla dwóch zmiennych niezależnych (większe grupy). Na podstawie wyliczonych statystyk
+Podejście normatywne porównuje badaną próbę osób z normami dla tej samej lub szerszej populacji (np.: pracownicy sektora IT są podgrupą wszystkich Polaków). Część norm jest ogólniedostępna, w szczególoności dla angielskojęzycznej populacji, na strone twórcy \emph{JSS} \citep{web:jss-norms}. W tym wypadku wykorzystujemy test statystyczny t-Studenta (mniejsze grupy) lub statystykę Z dla dwóch zmiennych niezależnych (większe grupy). Na podsatwie wyliczonych statystyk
 stwierdzamy, czy istnieje znacząca statystycznie różnica między badaną grupą, a populacją. W wyniku możemy stwierdzić, że badani są tak samo, bardziej lub mniej zadowoleni z pracy niż przeciętne osoby (zależnie od postawionych hipotez). Niestety podejście to
 ma trzy poważne wady.
 \begin{enumerate}
-\item Obecnie mały procent typów organizacji i zawodów posiada normy. Wyklucza to możliwość zastosowania tego podejścia w dużej ilości organizacji i zawodów.
-\item Normy prezentowane na stronie \emph{JSS} zazwyczaj nie są reprezentatywne, a jedynie stworzone są na podstawie próbek podesłanych autorowi \emph{JSS} przez innych naukowców. W związku z tym często nie tworzą ważnych naukowo norm i wyciąganie wniosków na ich podstawie powinno być ostrożne.
+\item Obecnie mały procent typów organizacji i zawodów posiada normy. Wyklucza to możliwość zastosowania tego podejścia w dużej ilości orgaqnizacji i zawodów.
+\item Normy prezentowane na stronie \emph{JSS} zazwyczaj nie są reprezentatywne, a jedynie stworzone są na podstawie próbek podesłanych autorówi \emph{JSS} przez innych naukowców. W związku z tym często nie tworzą ważnych naukowo norm i wyciąganie wniosków na ich podstawie powinno być ostrożne.
 \item Większość norm została zebrana z terenów Ameryki Północnej. Satysfakcja z pracy różni się ze względu na kraj, a tym bardziej kulturę, dlatego wykorzystanie obecnie istniejących norm w celach innych niż porównanie z krajami Ameryki Północnej będzie niemiarodajne.
 \end{enumerate}
  
@@ -66,23 +66,23 @@ Domeny te zostały podzielone ze względu na trzy wyróżnione stany:
 \begin{description}
 \item[niezadowolenie z pracy] \hfill \\
 dla każdej z podskal [4, 12), \hfill \\ dla sumarycznego wyniku [36, 108),
-\item[ambiwalentny stosunek do pracy] \hfill \\
+\item[ambwiwalentny stosunek do pracy] \hfill \\
 dla każdej z podskal [12, 16), \hfill \\ dla sumarycznego wyniku [108, 144),
-\item[zadowolenie z pracy] \hfill \\
+\item[zadowlenie z pracy] \hfill \\
 dla każdej z podskal [16, 24], \hfill \\ dla sumarycznego wyniku [144, 216].
 \end{description}
 
 Do powyższych obliczeń można także wykorzystać średnią wartość dla uzyskanych wyników. Wówczas odpowiednio:
 \begin{description}
 \item[niezadowolenie z pracy] średnia poniżej 3,
-\item[ambiwalentny stosunek do pracy] pomiędzy 3 włącznie, a 4 wyłącznie,
-\item[zadowolenie z pracy] powyżej 4 włącznie.
+\item[ambwiwalentny stosunek do pracy] pomiędzy 3 włącznie, a 4 wyłącznie,
+\item[zadowlenie z pracy] powyżej 4 włącznie.
 \end{description}
 
-Warto podkreślić, że podejście to także unika jasnego podziału między zadowoleniem, a niezadowoleniem wprowadzając przedział określający mieszane uczucia odnośnie pracy.
+Warto podkreślić, że podejście to także unika jasnego podziału między zadowoleniem, a niezadowleniem wprowadzając przedział określający mieszane uczucia odnośnie pracy.
 
 \subsection{Ultrecht Work Engagement Scale}
-\emph{Ultrecht Work Engagement Scale} jest profesjonalnym testem psychologicznym składającym się z 17 pytań: po 5 (wymiar \textit{oddanie}) lub 6 (wymiary \textit{absorpcja}, \textit{wigor}) stwierdzeń na każdy z przyjętych wymiarów zaangażowania w pracę. Wymiary zostały stworzone na podstawie konstruktu autorów testu \emph{UWES} na temat zaangażowania \citep{schaufeli2001burnout}. Co jest istotne, autorzy stworzyli konstrukt niezależnie od definicji wypalenia zawodowego, tworząc w ten sposób model możliwy do
+\emph{Ultrecht Work Engagement Scale} jest profesjonalnym testem psychologicznym składającym się z 17 pytań: po 5 (wymiar \textit{oddanie}) lub 6 (wymiary \textit{absorpcja}, \textit{wigor}) stwierdzeń na każdy z przyjętych wymiarów zaangażowania w pracę. Wymiary zostały stworzone na podstawie konstruktu autorów testu \emph{UWES} na temat zaangażwania \citep{schaufeli2001burnout}. Co jest istotne, autorzy stworzyli konstrukt niezależnie od definicji wypalenia zawodowego, tworząc w ten sposób model możliwy do
 badania zależności między zaangażowaniem, a wypaleniem zawodowym (jednak nie jest to tematem niniejszej pracy). Prezentowane stwierdzenia dla każdego z wymiarów mają kierunek pozytywny, co upraszcza końcowe liczenie wyników.
 
 Zastosowane skale to:
@@ -143,7 +143,7 @@ dla nas punkt odniesienia. Za pomocą tej metody możemy stwierdzić, że nasza 
 \end{enumerate}
 
 \subsubsection{Podejście częstotliwościowe}
-Ze względu na wady podejścia normatywnego, można zastosować podejście częstotliwościowe, bazujące na średniej z wszystkich odpowiedzi respondentów. Wówczas średnią częstotliwość odczuwania zaangażowania w pracy określamy na skali od ``raz w roku lub rzadziej'' do ``przynajmniej kilka razy w tygodniu lub codziennie'' (dokładne przedziały opisano wyżej).
+Ze względu na wady podejścia normatywnego, można zastosować podejście częstotliwościowe, bazujące na średniej z wszystkich odpowiedzi respondentów. Wówczas średnią częstotliwość odczuwania zaangażowania w pracy określamy na skali od ``raz w roku lub rzadziej'' do ``przynajmniej kilka razy w tygodniu lub codziennie'' (dokładne przedzialy opisan wyżej).
 
 Jeżeli zastosujemy sumy, wówczas przedziały zmieniają się odpowiednio:
 \begin{itemize}
