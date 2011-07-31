@@ -10,10 +10,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{amsthm}
 \usepackage{hyperref}
-%\usepackage{natbib}
-%\usepackage{cite}
 \usepackage[polish]{babel}
-\usepackage{apacite}
 \newtheorem{hyp}{Hipoteza}[section]
 \setcounter{tocdepth}{1}
 \begin{document}
@@ -21,10 +18,6 @@
 \author{\Large{Agnieszka Lewandowska} \\ \texttt{agnieszka.lewandowska@gmail.com} \\[0.4cm] \emph{promotor} \\ \Large{dr Teresa Chirkowska\dywiz Smolak} \\ \texttt{chirko@amu.edu.pl} }
 \date{czerwiec 2011}
 \maketitle
-
-%\begin{abstract}
-%TODO napisz abstrakt :-)
-%end{abstract}
 
 \tableofcontents
 \cleardoublepage
@@ -47,8 +40,7 @@
 \input{text/appendix}
 
 \cleardoublepage
-%%for hyperref to enable hyperlinking
-\phantomsection
-\bibliographystyle{apacite}
-\bibliography{references/uwes,references/jss,references/pinm}
+\bibliographystyle{plalpha}{ 
+  \raggedright\sloppy\small\bibliography{references/uwes,references/jss,references/pinm} 
+  }
 \end{document}
