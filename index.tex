@@ -10,6 +10,11 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{amsthm}
 \usepackage{hyperref}
+\usepackage{apacite}
+\renewcommand{\BBAA}{i}
+\renewcommand{\BCBT}{}
+\renewcommand{\BCBL}{}
+\renewcommand{\BOthers}{i~in}
 \usepackage[polish]{babel}
 \newtheorem{hyp}{Hipoteza}[section]
 \setcounter{tocdepth}{1}
@@ -40,7 +45,6 @@
 \input{text/appendix}
 
 \cleardoublepage
-\bibliographystyle{plalpha}{ 
-  \raggedright\sloppy\small\bibliography{references/uwes,references/jss,references/pinm} 
-  }
+\bibliographystyle{apacite}
+\bibliography{references/uwes,references/jss,references/pinm}
 \end{document}
